@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELFINA COSSARI DISEÑO</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../assets/iconos/icono.png">
+    
+</head> 
+
+<body id="grilla">
+        <header>
+            <div>
+                 <ul class="titulo">
+                    <li><h1>DELFINA COSSARI</h1> <span>DISEÑADORA</span></li>
+                    <img class="logodc"src="../assets/imagenes/DC.png" alt="logodc">
+                </ul>
+            </div>    
+
+            <nav>
+                <ul class="menunav">
+                    <li><a href="../index.html"> HOME</a></li>
+                    <li><a href="../pages/servicios.html"> PORTFOLIO</a></li>
+                    <li><a href="../pages/comunidad.html"> COMUNIDAD</a></li>
+                    <li><a href="../pages/nosotros.html"> NOSOTROS</a></li>
+                    <li><a href="../pages/contacto.html"> CONTACTO</a>
+                        <ul>
+                            <li><a href="mailto:deelfina.coss@gmail.com">Webmail</a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=5492604843592">Whastsapp</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>         
+    <main class="formulario">
+        <h3 class="formulario">Contactanos</h3>
+        <form action="" method="get" enctype="text/plain">
+            <label for="Name">Nombre</label>
+            <input type="text" id="Name" placeholder="Ingresá tu nombre">
+            <br><br>
+            <label for="Apellido">Apellido</label>
+            <input type="text" id="Apellido" placeholder="Ingresá tu apellido">
+            <br><br>
+            <label for="Email">Email</label>
+            <input type="text" id="Email" placeholder="Tu correo acá">
+            <br><br>
+            <label for="Estado Civil">Estado civil</label>
+            <br><br>
+            <select name="Estado Civil" id="estado">
+                <option value="Sol">Soltero/a</option>
+                <option value="Cas">Casado/a</option>
+                <option value="noinf">No informa</option>
+            </select>
+            <br><br>
+            <!-- Checkbox -->    
+            Deseo recibir novedades <input type="checkbox" name="SI"> 
+            <br><br>
+            <!-- Comentarios  -->
+            <label for="comentarios">Dejanos tus comentarios</label><br> <br>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            <br><br>
+            <!--Botones  -->
+            <input type="Submit" value="Enviar formulario">
+            <input type="Reset" value="Limpiar formulario">
+        </form>
+    </main>    
+    <footer id="pie">
+        <p>@delfinacossaridiseño</p>
+    </footer>
+</body>
+</html>
